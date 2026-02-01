@@ -3,3 +3,18 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
+
+
+# Ignorar carpetas de compilación en cualquier nivel
+**/bin/
+**/obj/
+
+# Ignorar archivos de usuario y Rider
+.idea/
+*.user
+*.sln.DotSettings.user
+
+# Ignorar específicamente los ejecutables de build
+*.exe
+*.dll
+*.pdb
